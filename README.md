@@ -9,11 +9,11 @@ This repo assumes you are working in a macOS or Linux environment and shell comm
 
 ## List of available APIs
 
-┌─────────────────────────┬───────────┐
-│ Path                    │ Method(s) │
-│ /api/health             │ GET       │
-│ /api/tasks              │ POST      |
 
+| Route           | Description |
+| --------------  | ----------- |
+| **/api/health** | Simple healthcheck/ping (GET)|
+| **/api/tasks**  | For updating taks (POST) |
 
 API can be accessed via curl command: `curl http://localhost:3000/<endpoint>`
 
